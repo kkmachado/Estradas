@@ -80,16 +80,6 @@ struct ContentView: View {
                 data.loadCameraData(cameraData: CameraList.conego)
             }
             
-            NavigationView {
-                ScrollView {
-                    
-                }
-                .navigationTitle("Informações")
-            }.tabItem {
-                Text("Informações")
-                Image(systemName: "info.circle.fill")
-            }
-            
         }
     }
 }
