@@ -15,13 +15,13 @@ class CameraData: ObservableObject  {
     @Published var conego = [CameraView]()
     
     init(){
-        loadCameraData(cameraData: CameraList.imigrantes)
-        loadCameraData(cameraData: CameraList.anchieta)
-        loadCameraData(cameraData: CameraList.peManoel)
-        loadCameraData(cameraData: CameraList.conego)
+        refreshCameraData(cameraData: CameraList.imigrantes)
+        refreshCameraData(cameraData: CameraList.anchieta)
+        refreshCameraData(cameraData: CameraList.peManoel)
+        refreshCameraData(cameraData: CameraList.conego)
     }
     
-    func loadCameraData(cameraData: [Camera])  {
+    func refreshCameraData(cameraData: [Camera])  {
         var camera: [CameraView] = []
         
         switch cameraData {

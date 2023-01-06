@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8776BFFE296862E7002C8081 /* OperationsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8776BFFD296862E7002C8081 /* OperationsObject.swift */; };
 		8786202029671E5300EF0837 /* CameraObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8786201F29671E5300EF0837 /* CameraObject.swift */; };
+		87A077982967710000B2151D /* OperationsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A077972967710000B2151D /* OperationsViews.swift */; };
+		87A0779A2967765000B2151D /* OperationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A077992967765000B2151D /* OperationsData.swift */; };
+		87A0779C2967770400B2151D /* OperationsFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A0779B2967770400B2151D /* OperationsFetch.swift */; };
 		87B59D8929670BF50088A671 /* EstradasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B59D8829670BF50088A671 /* EstradasApp.swift */; };
 		87B59D8B29670BF50088A671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B59D8A29670BF50088A671 /* ContentView.swift */; };
 		87B59D8D29670BF60088A671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B59D8C29670BF60088A671 /* Assets.xcassets */; };
@@ -17,8 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8776BFFD296862E7002C8081 /* OperationsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsObject.swift; sourceTree = "<group>"; };
 		8786201E296718A900EF0837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8786201F29671E5300EF0837 /* CameraObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraObject.swift; sourceTree = "<group>"; };
+		87A077972967710000B2151D /* OperationsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsViews.swift; sourceTree = "<group>"; };
+		87A077992967765000B2151D /* OperationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsData.swift; sourceTree = "<group>"; };
+		87A0779B2967770400B2151D /* OperationsFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsFetch.swift; sourceTree = "<group>"; };
 		87B59D8529670BF50088A671 /* Estradas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estradas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87B59D8829670BF50088A671 /* EstradasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstradasApp.swift; sourceTree = "<group>"; };
 		87B59D8A29670BF50088A671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +72,10 @@
 				87B59D9629670D5B0088A671 /* CameraView.swift */,
 				87B59D9829670D820088A671 /* CameraData.swift */,
 				8786201F29671E5300EF0837 /* CameraObject.swift */,
+				87A077972967710000B2151D /* OperationsViews.swift */,
+				87A077992967765000B2151D /* OperationsData.swift */,
+				87A0779B2967770400B2151D /* OperationsFetch.swift */,
+				8776BFFD296862E7002C8081 /* OperationsObject.swift */,
 				87B59D8C29670BF60088A671 /* Assets.xcassets */,
 				87B59D8E29670BF60088A671 /* Preview Content */,
 			);
@@ -152,7 +164,11 @@
 				87B59D8B29670BF50088A671 /* ContentView.swift in Sources */,
 				8786202029671E5300EF0837 /* CameraObject.swift in Sources */,
 				87B59D9929670D820088A671 /* CameraData.swift in Sources */,
+				87A077982967710000B2151D /* OperationsViews.swift in Sources */,
+				87A0779A2967765000B2151D /* OperationsData.swift in Sources */,
+				87A0779C2967770400B2151D /* OperationsFetch.swift in Sources */,
 				87B59D8929670BF50088A671 /* EstradasApp.swift in Sources */,
+				8776BFFE296862E7002C8081 /* OperationsObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
