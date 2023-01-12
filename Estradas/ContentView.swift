@@ -197,7 +197,7 @@ struct ContentView: View {
                         Divider()
                         
                         VStack(alignment: .leading) {
-                            Text("Rodovia dos Imigrantes")
+                            Text("Rodovia Anchieta")
                                 .font(.title3)
                                 .bold()
                                 .padding(.bottom,1)
